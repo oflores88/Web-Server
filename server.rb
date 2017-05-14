@@ -2,7 +2,7 @@ require 'sinatra'
 
 get '/' do
   # "Hello world"
-  File.read('index.html')
+  File.read('public/index.html')
 end
 
 get "/sinatra" do
